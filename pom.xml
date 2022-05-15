@@ -10,10 +10,10 @@
     <version>${revision}</version>
 
     <modules>
-        <module>flink-boot-starter</module>
         <module>flink-boot-common</module>
-        <module>flink-boot-parent</module>
         <module>flink-boot-dependencies</module>
+        <module>flink-boot-parent</module>
+        <module>flink-boot-starter</module>
         <module>flink-boot-table</module>
     </modules>
 
