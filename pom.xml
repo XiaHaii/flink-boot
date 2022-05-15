@@ -24,8 +24,8 @@
         <flatten.version>1.2.4</flatten.version>
         <source.version>3.2.1</source.version>
         <javadoc.version>3.2.0</javadoc.version>
+        <scala.binary.version>2.11</scala.binary.version>
 
-        <scala.binary.version>2.12</scala.binary.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 

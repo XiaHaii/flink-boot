@@ -11,5 +11,22 @@
 
     <artifactId>flink-boot-parent</artifactId>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.xiahai.flink</groupId>
+                <artifactId>flink-boot-dependencies</artifactId>
+                <version>${revision}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.xiahai.flink</groupId>
+            <artifactId>flink-boot-starter</artifactId>
+        </dependency>
+    </dependencies>
 </project>
